@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktoum_docs=self.webpackChunktoum_docs||[]).push([["7234"],{8881(t,c,e){e.d(c,{A:()=>u});var n=e(4848),o=e(8924),s=e(6497),i=e(1702);function u(t){let c=(0,i.Df)().get(t.href),e=(0,s.Ay)(c?.icon??"/img/logo.png");return(0,n.jsx)(o.A,{...t,icon:c?.icon?(0,n.jsx)("img",{src:e,alt:"",width:42,height:42}):null})}}}]);

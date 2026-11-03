@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Town Of Us: Mira Docs Blog</title>
+        <link>https://au-avengers.github.io/docs.toum.gg/blog</link>
+        <description>Town Of Us: Mira Docs Blog</description>
+        <lastBuildDate>Sun, 18 Oct 2026 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Mira v1.7.9 Beta 1 Update]]></title>
+            <link>https://au-avengers.github.io/docs.toum.gg/blog/update-179</link>
+            <guid>https://au-avengers.github.io/docs.toum.gg/blog/update-179</guid>
+            <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Town of Us: Mira has updated to v1.7.9 Beta 1!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="town-of-us-mira-has-updated-to-v179-beta-1">Town of Us: Mira has updated to <a href="https://github.com/AU-Avengers/TOU-Mira/releases/tag/1.7.9-beta1" target="_blank" rel="noopener noreferrer" class="">v1.7.9 Beta 1</a>!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-179#town-of-us-mira-has-updated-to-v179-beta-1" class="hash-link" aria-label="Direct link to town-of-us-mira-has-updated-to-v179-beta-1" title="Direct link to town-of-us-mira-has-updated-to-v179-beta-1" translate="no">​</a></h2>
+<p>This update includes bug fixes and additional changes. See the full changelog below.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>version change</div><div class="admonitionContent_BuS1"><big><strong>This update runs on <strong>v19</strong> of Among Us and requires a fresh install!</strong></big></div></div>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="changelog">Changelog<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-179#changelog" class="hash-link" aria-label="Direct link to Changelog" title="Direct link to Changelog" translate="no">​</a></h3>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Role Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Impostors</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Ambusher's animation no longer breaks.</li>
+<li class="">Fix Parasite not being able to open meeting chat.</li>
+<li class="">Fixed Escapist recall sprite layering.</li>
+<li class="">Fixed Miner vent layering.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Neutrals</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Fixed "frozen" stones not actually appearing as stone.</li>
+<li class="">Chef keeps track of disconnected served players to prevent an impossible win.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Disable Submerged button for Ghostwalkers.</li>
+<li class="">Fixed loading issues with Submerged. Note that this means every player is required to have it when using it.</li>
+<li class="">Fixed issues with draft not giving roles or simply not listening to other player picks.</li>
+<li class="">Fixed map decoration on Skeld.</li>
+<li class="">Fixed save data not saving.</li>
+</ul></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Improvements, Additions &amp; Changes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Improvements</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Ambassador's Selection menu now has two circles of roles to display more at once.</li>
+<li class="">Zoom is no longer easy to trigger on mobile.</li>
+<li class="">Prevent zooming in draft.</li>
+<li class="">Fix issues with custom text icons clipping in UI.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Balancing Tweaks</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">By default, Hunter will need to wait a round before they can kill a caught player without being punished for it if they are crew.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Additions</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Added implementation for the new match info guide, as well as a temporary toggle.</li>
+<li class="">Added the ability to see chat notifications outside of the lobby.</li>
+<li class="">Added settings to toggle sabotages when dead and when too few players are alive.</li>
+<li class="">Added Achievements Support (bundled in this release).
+Added basic Mutually-Exclusive role buckets.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Rainbow color is a bit slower and is more optimized now.</li>
+<li class="">Added Nameplates and Visor support via Corsac Cosmetics, requiring it for all future releases.</li>
+<li class="">Removed Classic Mode for Players. Innersloth's changes have made it unfeasible to try getting it to work again.</li>
+</ul></div></div></details></div></div></details>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Mira v1.7.3 Update]]></title>
+            <link>https://au-avengers.github.io/docs.toum.gg/blog/update-173</link>
+            <guid>https://au-avengers.github.io/docs.toum.gg/blog/update-173</guid>
+            <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Town of Us: Mira has updated to v1.7.3!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="town-of-us-mira-has-updated-to-v173">Town of Us: Mira has updated to <a href="https://github.com/AU-Avengers/TOU-Mira/releases/tag/1.7.3" target="_blank" rel="noopener noreferrer" class="">v1.7.3</a>!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-173#town-of-us-mira-has-updated-to-v173" class="hash-link" aria-label="Direct link to town-of-us-mira-has-updated-to-v173" title="Direct link to town-of-us-mira-has-updated-to-v173" translate="no">​</a></h2>
+<p>This update includes bug fixes and additional changes. See the full changelog below.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>version change</div><div class="admonitionContent_BuS1"><big><strong>This update runs on <strong>v18</strong> of Among Us and requires a fresh install!</strong></big></div></div>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="changelog">Changelog<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-173#changelog" class="hash-link" aria-label="Direct link to Changelog" title="Direct link to Changelog" translate="no">​</a></h3>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Role Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Crewmates</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Sheriff: Fixed broken punishment explanation in tab description.</li>
+<li class="">Altruist: Fixed broken tab description.</li>
+<li class="">Mirrorcaster: Magic Mirrors no longer stay permanently if the Mirrorcaster is converted.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Impostors</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Morphling: If configured, the Morph ability uses are no longer able to go less than 0.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Neutrals</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Survivor: Survivor no longer takes wins away from Impostors.</li>
+<li class="">Plaguebearer: Adjusted checks to rule out the possibility of duplicate plague on a player.</li>
+<li class="">Werewolf: Werewolf's short-burst kill cooldown is no longer affected by cooldown changes.</li>
+<li class="">Chef: Added safeguards against the possible occurrence of missing dead bodies, breaking the win conditions.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Draft Mode &amp; Other Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Draft Mode Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Target-based roles like Fairy and Executioner have targets assigned properly again.</li>
+<li class="">Concurrent picks no longer removes picks from other player.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Fixed bad AU code causing anti-cheat to kick non-hosts if they voted for someone who died in the meeting.</li>
+<li class="">Fixed non-classic roles appearing in the settings menu.</li>
+<li class="">Fixed missing causes of death appearing due to locale system changes.</li>
+<li class="">Fixed Assailant Modifier Options text.</li>
+<li class="">Fixed kill cooldown for Impostors not being based on overall cooldown offsets.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Added Ghostwalker Auto-Venting setting upon spawning under Game Mechanics.</li>
+<li class="">Added Judge's punishment as a setting for Prosecutor's punishment (now the default).</li>
+<li class="">Reshuffling in Draft Mode gives you spare time to pick if necessary.</li>
+</ul></div></div></details></div></div></details>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Mira v1.7.2 Update]]></title>
+            <link>https://au-avengers.github.io/docs.toum.gg/blog/update-172</link>
+            <guid>https://au-avengers.github.io/docs.toum.gg/blog/update-172</guid>
+            <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Town of Us: Mira has updated to v1.7.2!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="town-of-us-mira-has-updated-to-v172">Town of Us: Mira has updated to <a href="https://github.com/AU-Avengers/TOU-Mira/releases/tag/1.7.2" target="_blank" rel="noopener noreferrer" class="">v1.7.2</a>!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-172#town-of-us-mira-has-updated-to-v172" class="hash-link" aria-label="Direct link to town-of-us-mira-has-updated-to-v172" title="Direct link to town-of-us-mira-has-updated-to-v172" translate="no">​</a></h2>
+<p>This update includes bug fixes and additional changes. See the full changelog below.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>version change</div><div class="admonitionContent_BuS1"><big><strong>This update runs on <strong>v18</strong> of Among Us and requires a fresh install!</strong></big></div></div>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="changelog">Changelog<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-172#changelog" class="hash-link" aria-label="Direct link to Changelog" title="Direct link to Changelog" translate="no">​</a></h3>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Role &amp; Modifier Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Crewmates</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Haunter: Dead killers no longer get an arrow to a revealed Haunter.</li>
+<li class="">Deputy: No longer guessable after being revealed.</li>
+<li class="">Prosecutor: Prosecute uses text is no longer broken.</li>
+<li class="">Time Lord: Final evil being revived no longer ends the game with a crewmate win.</li>
+<li class="">Swapper: Swapped players properly carry over their colorblind text.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Neutrals</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Doomsayer: If Doomsayer continues the game and is supposed to win the game when all guesses are completed, the game will no longer end in a crewmate win.</li>
+<li class="">Doomsayer: Guess information is properly tracked for other players.</li>
+<li class="">Plaguebearer: Pestilence transformation is fixed for edge cases.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Modifiers</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Deadly Quota: The last kill of the game is properly counted towards the quota now.</li>
+<li class="">Overclocker: Overclock no longer grants impostors a 0 second kill cooldown.</li>
+<li class="">Tiebreaker: Tiebreaker no longer continues the game while dead.</li>
+<li class="">Noisemaker: Noisemaker no longer stays lingering even when a body is cleaned up.</li>
+<li class="">Bait: Fixed bait reports occurring even if a body was cleaned up in time.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Draft Mode &amp; Other Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Draft Mode Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Amount of choices is no longer affected by the number of players present.</li>
+<li class="">Shuffling no longer reduces the number of options you get.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Concealed changes such as Ambusher, Morphling, and Swooper no longer carry into meetings.</li>
+<li class="">Added support for the latest Level Imposter release.</li>
+<li class="">Fixed broken Submerged patching.</li>
+<li class="">Neutral Killers no longer take full priority over win conditions. This now fixes game draws.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Notable Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Mod now runs on Among Us v18.0.x.</li>
+<li class="">Prosecutor, Politician, Mayor, and Hypnotist have now switched to the new meeting abilities system.</li>
+<li class="">The Win Condition system has been rewritten. Neutral Benigns are treated as majority Crewmates if at least two main factions (Crew, Imps, NKs) exist. Otherwise, they will be ignored from win checks. Survivor can also win solo if only NBs remain.</li>
+<li class="">Vampire is counted as two Neutral Killing slots under Draft Mode now.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">By default, Janitor can clean and kill separately only if they're by themselves.</li>
+<li class="">Mayor and Deputy will still say their role on their name even if they are converted.</li>
+</ul></div></div></details></div></div></details>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Mira v1.7.1 Update]]></title>
+            <link>https://au-avengers.github.io/docs.toum.gg/blog/update-171</link>
+            <guid>https://au-avengers.github.io/docs.toum.gg/blog/update-171</guid>
+            <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Town of Us: Mira has updated to v1.7.1!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="town-of-us-mira-has-updated-to-v171">Town of Us: Mira has updated to <a href="https://github.com/AU-Avengers/TOU-Mira/releases/tag/1.7.1" target="_blank" rel="noopener noreferrer" class="">v1.7.1</a>!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-171#town-of-us-mira-has-updated-to-v171" class="hash-link" aria-label="Direct link to town-of-us-mira-has-updated-to-v171" title="Direct link to town-of-us-mira-has-updated-to-v171" translate="no">​</a></h2>
+<p>This update includes bug fixes and some rolechanges. See the full changelog below.</p>
+<div class="theme-admonition theme-admonition-danger admonition_xJq3 alert alert--danger"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>IMPORTANT</div><div class="admonitionContent_BuS1"><big><strong>This update runs on <strong>v17.4</strong> of Among Us and requires a fresh install.</strong></big><p>Do not just replace files as this will cause issues.</p></div></div>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="changelog">Changelog<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-171#changelog" class="hash-link" aria-label="Direct link to Changelog" title="Direct link to Changelog" translate="no">​</a></h3>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Role &amp; Modifier Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Crewmates</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Lookout shuffles its watch findings properly again.</li>
+<li class="">Seer Reveal mode checks its options properly.</li>
+<li class="">Converted Jailor no longer leaves jailee in a broken state.</li>
+<li class="">Knighted Mayor no longer gets double votes.</li>
+<li class="">Imitator no longer shows (Imi) while dead.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Impostors</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Ambassador retrain is consistently functional on teammates now.</li>
+<li class="">Ambassador retrain no longer sets the trainee's kill cooldown to 0.</li>
+<li class="">Traitor no longer shows (Traitor) while dead.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Neutrals</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Executioner, Fairy, and Inquisitor check for disconnected targets properly.</li>
+<li class="">Fixed errors thrown by unshattered Medusa stones that broke the whole game.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Modifiers</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Celebrity shows death by the Spectre properly.</li>
+<li class="">Circumvent uses are no longer bypassed with a meeting.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Draft Mode &amp; Other Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Draft Mode Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Draft no longer softlocks if Host disconnects.</li>
+<li class="">Draft UI is no longer left behind during role intro or when leaving mid-draft.</li>
+<li class="">Alignment Mode no longer shows the actual faction instead.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">End Game Summary shows role icons for disconnected players.</li>
+<li class="">Fixed the biggest source of memory leaking.</li>
+<li class="">Fixed crashing for Epic Games and Xbox Game Pass users.</li>
+<li class="">Game Options should no longer desync when initially joining.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Crewmate Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Prosecutor now stops swaps from happening.</li>
+<li class="">Monarch can now optionally reveal knighting in the meeting.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Impostors Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Venerer can now cancel their ability early.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Neutrals Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Victims of Executioner Torment, Jester Haunt, and Spectre Spook are publicly announced.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Added Role Icon on Role Reveal screen local toggle.</li>
+</ul></div></div></details></div></div></details>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Mira v1.7.0 Update]]></title>
+            <link>https://au-avengers.github.io/docs.toum.gg/blog/update-170</link>
+            <guid>https://au-avengers.github.io/docs.toum.gg/blog/update-170</guid>
+            <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Town of Us: Mira has updated to v1.7.0!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="town-of-us-mira-has-updated-to-v170">Town of Us: Mira has updated to <a href="https://github.com/AU-Avengers/TOU-Mira/releases/tag/1.7.0" target="_blank" rel="noopener noreferrer" class="">v1.7.0</a>!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-170#town-of-us-mira-has-updated-to-v170" class="hash-link" aria-label="Direct link to town-of-us-mira-has-updated-to-v170" title="Direct link to town-of-us-mira-has-updated-to-v170" translate="no">​</a></h2>
+<p>This update is packed with <strong>big changes and new additions</strong>, including:</p>
+<ul>
+<li class="">Draft Mode is now part of the base mod!</li>
+<li class="">A new Impostor and a new Crewmate role!</li>
+<li class="">2 new modifiers!</li>
+<li class="">A new pet!</li>
+</ul>
+<p>Also included are <strong>a number of changes to existing roles and modifiers</strong>, as well as bug fixes and improvements. See the full changelog below.</p>
+<div class="theme-admonition theme-admonition-danger admonition_xJq3 alert alert--danger"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M5.05.31c.81 2.17.41 3.38-.52 4.31C3.55 5.67 1.98 6.45.9 7.98c-1.45 2.05-1.7 6.53 3.53 7.7-2.2-1.16-2.67-4.52-.3-6.61-.61 2.03.53 3.33 1.94 2.86 1.39-.47 2.3.53 2.27 1.67-.02.78-.31 1.44-1.13 1.81 3.42-.59 4.78-3.42 4.78-5.56 0-2.84-2.53-3.22-1.25-5.61-1.52.13-2.03 1.13-1.89 2.75.09 1.08-1.02 1.8-1.86 1.33-.67-.41-.66-1.19-.06-1.78C8.18 5.31 8.68 2.45 5.05.32L5.03.3l.02.01z"></path></svg></span>IMPORTANT</div><div class="admonitionContent_BuS1"><big><strong>This update runs on v17.4 of Among Us and <u>requires a full reinstall</u>.</strong></big><p>Do not just replace files as this will cause issues.</p></div></div>
+<!-- -->
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="new-roles">New Roles!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-170#new-roles" class="hash-link" aria-label="Direct link to New Roles!" title="Direct link to New Roles!" translate="no">​</a></h3>
+<ul>
+<li class="">
+<p>The <strong>Barkeeper</strong> is a <em>Crewmate Support</em> role that can drink with others to roleblock them. They may also spill a drink to speed up or slow down other players.</p>
+</li>
+<li class="">
+<p>The <strong>Bootlegger</strong> is an <em>Impostor Support</em> role that can drink with others to roleblock them. Once a player is roleblocked three times, they will die of poison.</p>
+</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="new-modifiers">New Modifiers!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-170#new-modifiers" class="hash-link" aria-label="Direct link to New Modifiers!" title="Direct link to New Modifiers!" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Drunk</strong> (Universal) — Your controls are permanently inverted. You are also immune to normal roleblocks.</li>
+<li class=""><strong>Overclocker</strong> (Assailant) — You may decrease your cooldowns at the cost of longer cooldowns once your Overclock is over. After an additional round, your cooldowns will normalize.</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="changelog">Changelog<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-170#changelog" class="hash-link" aria-label="Direct link to Changelog" title="Direct link to Changelog" translate="no">​</a></h3>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Role &amp; Modifier Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Crewmates</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Investigator footprints are layered correctly for every map.</li>
+<li class="">Medium's Spirit displays arrows for everyone properly.</li>
+<li class="">"Medium can Identify" setting properly makes ghosts anonymous.</li>
+<li class="">Mystic arrows no longer appear if their duration is 0 seconds.</li>
+<li class="">Swapper and Prosecutor vote changes reflect on Executioner, Jester, and Hunter.</li>
+<li class="">Disconnected Medics will not leave their shields behind on players anymore.</li>
+<li class="">Disconnected players that are protected will return uses to Medic, Mirrorcaster, and Warden.</li>
+<li class="">Noisemaker will properly check for rotting bodies or stoned players.</li>
+<li class="">Imitator priority is fixed for roles like Forensic.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Impostors</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Venerer abilities no longer reset from an additional kill.</li>
+<li class="">Added checks for Ambassador and Traitor to throw warnings when no roles are available.</li>
+<li class="">Miner explosion no longer appears on invisible vent.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Neutrals</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Executioner and Doomsayer leave notifications appear properly for everyone now.</li>
+<li class="">Doomsayer killing all victims at once setting is fixed, and no longer kills just one player.</li>
+<li class="">Glitch hack no longer prevents killers from being able to kill for the remainder of the game.</li>
+<li class="">Inquisitor will win solo in a 1v1 and will not take away wins in a 1v1 with dead heretics (<a href="https://github.com/AU-Avengers/TOU-Mira/pull/225" target="_blank" rel="noopener noreferrer" class="">PR #225</a>).</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Modifiers</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Crewpostor Vigilante can no longer guess other impostors.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Fixed problems with the End Game Timer breaking and erroring.</li>
+<li class="">Submerged will no longer break in the role reveal.</li>
+<li class="">Neutral Wildcard no longer duplicates the amount of each neutral present (<a href="https://github.com/AU-Avengers/TOU-Mira/pull/191" target="_blank" rel="noopener noreferrer" class="">PR #191</a>).</li>
+<li class="">Wiki hyperlinks will check for gamemode-specific roles properly.</li>
+<li class="">Full support for Among Us v17.4.</li>
+</ul></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Role &amp; Modifier Changes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Crewmate Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Lookout by default sees who interacts, rather than what roles interact.</li>
+<li class="">In the "See Players" mode, Lookout will not be able to see Bomber or any other indirect attacks.</li>
+<li class="">Seer can optionally only use their ability once per round and/or compare each player once per game (<a href="https://github.com/AU-Avengers/TOU-Mira/pull/231" target="_blank" rel="noopener noreferrer" class="">PR #231</a>).</li>
+<li class="">Deputy, by default, will warn their camped target's killer about a Deputy existing (<a href="https://github.com/AU-Avengers/TOU-Mira/pull/209" target="_blank" rel="noopener noreferrer" class="">PR #209</a>).</li>
+<li class="">Deputy will now reveal themselves upon a successful shot.</li>
+<li class="">Prosecutor now has a full-screen animation for prosecutes.</li>
+<li class="">Time Lord, by default, will revive players for a single round, and make them die after the next meeting ends.</li>
+<li class="">Medic now sees "Darker / Lighter" on all players rather than just on living players.</li>
+<li class="">Transporter now uses a single multi-select menu for transporting players.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Impostors Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Swooper can optionally be untrackable while swooping. (<a href="https://github.com/AU-Avengers/TOU-Mira/pull/201" target="_blank" rel="noopener noreferrer" class="">PR #201</a>).</li>
+<li class="">Blackmailed players no longer immediately skip if too many players are alive.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Neutrals Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Doomsayer shows guessing progress next to their name.</li>
+<li class="">Doomsayer no longer sees disabled roles in their feedback</li>
+<li class="">Jester has an optional limited duration and cooldown adjustment for venting (<a href="https://github.com/AU-Avengers/TOU-Mira/pull/237" target="_blank" rel="noopener noreferrer" class="">PR #237</a>).</li>
+<li class="">Jester can now Poke players, triggering roles like Warden, Cleric, Herbalist, Lookout, and more (<a href="https://github.com/AU-Avengers/TOU-Mira/pull/205" target="_blank" rel="noopener noreferrer" class="">PR #205</a>).</li>
+<li class=""><strong>Soul Collector has been permanently replaced by Medusa.</strong> This rework makes players slowly fade into stone, and allows Transporters to still interact with them to an extent. Non-shattered stones will remain throughout rounds as evidence.</li>
+<li class="">Chef shows feeding progress on their name.</li>
+<li class="">Inquisitor marks off any Heretic roles that have died in their role tab.</li>
+<li class="">Inquisitor now has a Heretic progress count next to their name.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Modifier Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Tiebreaker now stalls the game as a solo Crewmate, or as a Jester / Executioner in a 1v1 / 1v2.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Unity Rich Text is no longer allowed on players to prevent issues with tag abuse (<a href="https://github.com/AU-Avengers/TOU-Mira/pull/206" target="_blank" rel="noopener noreferrer" class="">PR #206</a>).</li>
+<li class="">Lobby Rules are now limited to being displayed at 3-second intervals due to malicious players who sell cheat mods to disrupt lobbies.</li>
+<li class="">Task tracking is mostly up for preference now, with the host simply toggling if other task amounts can be seen by the dead.</li>
+<li class="">All local game options are moved to 6 different categories.</li>
+</ul></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Additions &amp; Improvements</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Additions</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">@idkimneil's Draft Mode is now part of the base mod. This can be toggled in the Role Distribution settings.</li>
+<li class="">Added Perfect Comms (Prox-Chat) role integration on the mod itself (<a href="https://github.com/AU-Avengers/TOU-Mira/pull/226" target="_blank" rel="noopener noreferrer" class="">PR #226</a>) <strong>- REQUIRES UPDATE TO PERFECT COMMS 4.1.7 OR NEWER!</strong></li>
+<li class="">Added <strong>Overclocker</strong>, an Assailant modifier that speeds up cooldowns for more general killers but then slows cooldowns afterwards.</li>
+<li class="">Added <strong>Drunk</strong>, a Universal modifier that also has roleblock immunity.</li>
+<li class=""><strong>Barkeeper</strong> joins the Crewmate Support alignment with a standard roleblock ability and also a spill ability, changing player speed for anyone who steps in it.</li>
+<li class=""><strong>Bootlegger</strong> joins the Impostor Support alignment with a roleblock ability that slowly turns into poison.</li>
+<li class="">Added "Full Save Cooldown Multiplier" for full protective roles.</li>
+<li class="">Added the all-important Flopster pet (she's a little silly).</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Improvements</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Options for roles and modifiers display changes in a similar fashion to vanilla's option notifications.</li>
+<li class="">Hovering over the role list text in the lobby is now adjusted for the corresponding gamemode selected.</li>
+<li class="">Player text in meetings will now shrink depending on the amount of text within it.</li>
+<li class="">Meeting kill animations are synced for every player.</li>
+<li class="">In-Game Wiki will no longer stutter when reopening the roles search tab.</li>
+<li class="">Abilities disabled on round one now show that they are, in fact, disabled for that reason.</li>
+<li class="">More roles have additional visual and audio work.</li>
+<li class="">Game Modifiers display if they are guessable within their wiki entries.</li>
+<li class="">Roles now have their icons displayed in text.</li>
+<li class="">Wiki Hyperlinks in text will now display their corresponding icons.</li>
+</ul></div></div></details></div></div></details>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v1.6.3 Update]]></title>
+            <link>https://au-avengers.github.io/docs.toum.gg/blog/update-163</link>
+            <guid>https://au-avengers.github.io/docs.toum.gg/blog/update-163</guid>
+            <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Town of Us: Mira has updated to v1.6.3!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="town-of-us-mira-has-updated-to-v163">Town of Us: Mira has updated to <a href="https://github.com/AU-Avengers/TOU-Mira/releases/tag/1.6.3" target="_blank" rel="noopener noreferrer" class="">v1.6.3</a>!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-163#town-of-us-mira-has-updated-to-v163" class="hash-link" aria-label="Direct link to town-of-us-mira-has-updated-to-v163" title="Direct link to town-of-us-mira-has-updated-to-v163" translate="no">​</a></h2>
+<p><strong>This version runs on the latest version of Among Us (v17.4). A fresh install is recommended to ensure no conflicts with old files!</strong></p>
+<p>See the full changelog below.</p>
+<!-- -->
+<hr>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="changelog">Changelog<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-163#changelog" class="hash-link" aria-label="Direct link to Changelog" title="Direct link to Changelog" translate="no">​</a></h3>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Role &amp; Modifier Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Crewmates</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Officer now sees Prosecutor as a valid killer.</li>
+<li class="">Monarch is no longer immune to basic interactions when they have a shield.</li>
+<li class="">Cleric Barrier duration is no longer tied to its cooldown.</li>
+<li class="">Warden no longer resets cooldowns to one second.</li>
+<li class="">Engineer and Plumber interact with vents in a more optimized fashion. (PR #190 by @TheDavSmasher)</li>
+<li class="">Plumber barricades prevent all venters from entering properly. (PR #192 by @TheDavSmasher)</li>
+<li class="">Sentry Cameras are no longer placed below the map.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Impostors</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Shapeshifter now inherits fake shields on players, like how Morphling / Glitch do.</li>
+<li class="">Parasite and Puppeteer can interact with Ladders, Platforms, and Ziplines properly. <a href="https://github.com/AU-Avengers/TOU-Mira/pull/176" target="_blank" rel="noopener noreferrer" class="">PR #176, DrFreezyYT</a>.</li>
+<li class="">Pet Button no longer interferes with forced player map interactions.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Neutrals</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Arsonist douse count is no longer more than intended.</li>
+<li class="">Executioner can no longer torment when their target becomes evil.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Pets tab now says "Pets" rather than "Hats."</li>
+<li class="">Directly clicking on security utilities like Admin is no longer possible if task requirements aren't met.</li>
+<li class="">End Game Timer is no longer broken.</li>
+</ul></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes and Improvements</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Miner now places Polus vents and has an animation paired with it.</li>
+<li class="">By default, Sonar now uses Heartbeats instead of arrows to keep track of players.</li>
+<li class="">Haunter now marks players with a dark red name when they are revealed.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Improvements</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Glitch, Morphling, and Swooper now have better vent settings.</li>
+<li class="">UI changes are far more optimized now.</li>
+<li class="">Destroyed animations are now cleared from memory properly.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Additions</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">TOU Mira: Legacy is now a part of the main mod.</li>
+<li class="">Role Name placement is now configurable in terms of size and position.</li>
+<li class="">Added configurable mod stamp placement.</li>
+<li class="">Added "TV Show" style for Skeld visuals.</li>
+</ul></div></div></details></div></div></details>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[TOU:R v6.0.0]]></title>
+            <link>https://au-avengers.github.io/docs.toum.gg/blog/update-600</link>
+            <guid>https://au-avengers.github.io/docs.toum.gg/blog/update-600</guid>
+            <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Town of Us: Reactivated is so back!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="town-of-us-reactivated-is-so-back"><a href="https://github.com/AU-Avengers/Town-Of-Us-Reactivated" target="_blank" rel="noopener noreferrer" class="">Town of Us: Reactivated is so back!</a><a href="https://au-avengers.github.io/docs.toum.gg/blog/update-600#town-of-us-reactivated-is-so-back" class="hash-link" aria-label="Direct link to town-of-us-reactivated-is-so-back" title="Direct link to town-of-us-reactivated-is-so-back" translate="no">​</a></h2>
+<p>Our very own <a href="https://github.com/AtonyGit" target="_blank" rel="noopener noreferrer" class="">Atony</a> has officially updated <strong>Town of Us: Reactivated</strong> to run on the latest version of Among Us!</p>
+<p>Going forward, updates for TOU<!-- -->:R<!-- --> will be for compatibility and quality of life. New roles and modifiers will <strong>not</strong> be added to this release. See the changelog below for more.</p>
+<!-- -->
+<hr>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="changelog">Changelog<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-600#changelog" class="hash-link" aria-label="Direct link to Changelog" title="Direct link to Changelog" translate="no">​</a></h3>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changelog</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changelog</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Ported the mod over to the latest releases of Among Us.</li>
+<li class="">Added Android support via Starlight.</li>
+<li class="">Renamed mod metadata to prevent confusion with TOU Mira.</li>
+<li class="">Improved Hats Selection Menu.</li>
+<li class="">Added new hats from TOU Mira.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Notes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Presets are now located in <code>C:\Users\%user%\AppData\LocalLow\Innersloth\Among Us\reactivated_presets</code>. Make sure to move them over once reaching the main menu.</li>
+<li class="">Auto-updater will not currently be used for Reactivated, as it has proven to be unreliable at times.</li>
+</ul></div></div></details></div></div></details>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v1.6.2 Update]]></title>
+            <link>https://au-avengers.github.io/docs.toum.gg/blog/update-162</link>
+            <guid>https://au-avengers.github.io/docs.toum.gg/blog/update-162</guid>
+            <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Town of Us: Mira has updated to v1.6.2!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="town-of-us-mira-has-updated-to-v162">Town of Us: Mira has updated to <a href="https://github.com/AU-Avengers/TOU-Mira/releases/tag/1.6.2" target="_blank" rel="noopener noreferrer" class="">v1.6.2</a>!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-162#town-of-us-mira-has-updated-to-v162" class="hash-link" aria-label="Direct link to town-of-us-mira-has-updated-to-v162" title="Direct link to town-of-us-mira-has-updated-to-v162" translate="no">​</a></h2>
+<p>This update includes bug fixes and improvements: see the full changelog below.</p>
+<p>As always, be sure to do a fresh install!</p>
+<!-- -->
+<hr>
+<p><strong>Known Bugs:</strong></p>
+<ul>
+<li class="">Neutral Wildcard may duplicate the amount of each neutral present if any selected slots are wildcards.</li>
+<li class="">Ghostwalkers are sometimes unable to use the Zipline, Platform, or Ladders.</li>
+</ul>
+<p><strong>Known Hide n Seek Bugs:</strong></p>
+<ul>
+<li class="">The Seeker is missing animations for the hiders.</li>
+<li class="">Hiders ignore their vent uses.</li>
+</ul>
+<hr>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="changelog">Changelog<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-162#changelog" class="hash-link" aria-label="Direct link to Changelog" title="Direct link to Changelog" translate="no">​</a></h3>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Role Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Crewmates</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Medium's Spirit movement no longer carries over from Time Lord rewinds.</li>
+<li class="">Killers now get arrows that point to the Haunter when they complete their tasks.</li>
+<li class="">Medic no longer breaks when a player is protected by multiple Medics. Only one Medic will be flashed at a time.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Impostors</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Venerer no longer displays its effects as "Visual" modifiers.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Neutrals</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Glitch no longer resets mimic cooldowns for other Glitches.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Changing the UI scale mid-game no longer breaks the UI at the top right.</li>
+<li class="">Chat messages are now capped to a maximum of 20 public and 20 private chat messages to prevent crashing.</li>
+<li class="">Roles are no longer revealed immediately upon death.</li>
+<li class="">Pets are removed based on settings properly.</li>
+<li class="">Celebrity's cause of death now displays all causes of death.</li>
+</ul></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Impostor replaced by a Crewpostor can no longer see their previous task text.</li>
+<li class="">Camo Comms no longer shows other player names when revived.</li>
+<li class="">Doors can be set to Skeld doors or be flat-out removed properly on Submerged.</li>
+<li class="">Private Chat is no longer broken.</li>
+<li class="">Players disconnecting from the lobby no longer breaks the player count.</li>
+<li class="">Disconnected players no longer leak their role color.</li>
+<li class="">Submerged and Level Impostor no longer break when loading base game map assets.</li>
+</ul></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes and Improvements</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Monarch will no longer be able to change their shield appearance, and is now always Grey. A future patch will allow further configuration, but not to the same degree as before with Warden / Cleric flashing.</li>
+<li class="">Seer can no longer compare revealed players.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Improvements</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">It is now possible to disable any host keybind if you tend to misclick.</li>
+<li class="">Survivor, Fairy, and 1st Round Shield protection will flash grey, as a way to not appear unresponsive.l/173).</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Additions</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Two custom pets have been added</li>
+<li class="">Game Mechanic Option: All Shields Flash Anonymously.</li>
+<li class="">Top-Right UI can now be scaled up and down.</li>
+</ul></div></div></details></div></div></details>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v1.6.1 Update]]></title>
+            <link>https://au-avengers.github.io/docs.toum.gg/blog/update-161</link>
+            <guid>https://au-avengers.github.io/docs.toum.gg/blog/update-161</guid>
+            <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Town of Us: Mira has updated to v1.6.1!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="town-of-us-mira-has-updated-to-v161">Town of Us: Mira has updated to <a href="https://github.com/AU-Avengers/TOU-Mira/releases/tag/1.6.1" target="_blank" rel="noopener noreferrer" class="">v1.6.1</a>!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-161#town-of-us-mira-has-updated-to-v161" class="hash-link" aria-label="Direct link to town-of-us-mira-has-updated-to-v161" title="Direct link to town-of-us-mira-has-updated-to-v161" translate="no">​</a></h2>
+<p>This update includes bug fixes and improvements: see the full changelog below.</p>
+<p>As always, be sure to do a fresh install!</p>
+<!-- -->
+<hr>
+<p><strong>Known bugs with this update:</strong></p>
+<ul>
+<li class="">Controlled players (via Parasite/Puppeteer) appear to be stuck in a walk cycle when they are walking onto a wall, showing they are under control.</li>
+<li class="">Neutral Wildcard may duplicate the amount of each neutral present if any selected slots are wildcards.</li>
+<li class="">Ghostwalkers are sometimes unable to use the Zipline, Platform, or Ladders.</li>
+<li class="">When Haunter finishes their tasks, sometimes the Impostors will not get an arrow to the Haunter, essentially screwing them over.</li>
+<li class="">Pets aren't removed based on settings properly.</li>
+<li class="">Medic Shield still doesn't get shattered properly with the settings.</li>
+</ul>
+<p><strong>Known Hide and Seek Bugs:</strong></p>
+<ul>
+<li class="">The Seeker is missing animations for the Hiders.</li>
+<li class="">Hiders ignore their vent uses.</li>
+</ul>
+<hr>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="changelog">Changelog<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-161#changelog" class="hash-link" aria-label="Direct link to Changelog" title="Direct link to Changelog" translate="no">​</a></h3>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Role &amp; Modifier Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Crewmates</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Officer no longer breaks across game sessions.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Impostors</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Grenadier flash no longer breaks kill screens and meetings.</li>
+<li class="">Dragging Viper / Rotting bodies no longer breaks Undertaker.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Neutrals</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Executioner Torment kills players again.</li>
+<li class="">Jester Haunt kills players again.</li>
+<li class="">Mercenary protection is removed upon their death.</li>
+<li class="">Arsonist interactions contribute towards the douse limit.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Spectators that join without running <strong>/spec</strong> are no longer half-dead.</li>
+<li class="">When Crewpostor replaces a real Impostor, the player being replaced gets a proper role.</li>
+</ul></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Impostor replaced by a Crewpostor can no longer see their previous task text.</li>
+<li class="">Camo Comms no longer shows other player names when revived.</li>
+<li class="">Doors can be set to Skeld doors or be flat out removed properly on Submerged.</li>
+<li class="">Private Chat is no longer broken.</li>
+<li class="">Players disconnecting from the lobby no longer breaks the player count.</li>
+<li class="">Disconnected players no longer leak their role color.</li>
+<li class="">Submerged and Level Impostor no longer break when loading base game map assets.</li>
+</ul></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes and Improvements</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary>Details</summary><div><div class="collapsibleContent_i85q"><p></p><summary><strong>Changes</strong></summary>
+dlekS tooltip in the Create Game Menu is legible now.
+Imitator now shows (Imi) next to their name while imitating roles.
+Zoom and Wiki buttons can be changed to be below or next to the Settings / Chat button.
+Amnesiac's Assassin configuration is improved.
+Lobby view pane has been adjusted to be smaller.<p></p></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Improvements</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Assassin is now shown as a modifier, unless Double Shot is present, with a better wiki description.</li>
+<li class="">Misguessing now shows who/what was attempted to be guessed in the end game summary <a href="https://github.com/AU-Avengers/TOU-Mira/pull/173" target="_blank" rel="noopener noreferrer" class="">PR #173, DivanNL</a>.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Additions</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Keybind Actions are now available under the local settings, primarily for Android players.</li>
+<li class="">The host can now run /kick and /ban mid-game <a href="https://github.com/AU-Avengers/TOU-Mira/pull/170" target="_blank" rel="noopener noreferrer" class="">PR #170, VoidChaos</a></li>
+</ul></div></div></details></div></div></details>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v1.6.0 Update]]></title>
+            <link>https://au-avengers.github.io/docs.toum.gg/blog/update-160</link>
+            <guid>https://au-avengers.github.io/docs.toum.gg/blog/update-160</guid>
+            <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Town of Us: Mira has updated to v1.6.0!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="town-of-us-mira-has-updated-to-v160">Town of Us: Mira has updated to <a href="https://github.com/AU-Avengers/TOU-Mira/releases/tag/1.6.0" target="_blank" rel="noopener noreferrer" class="">v1.6.0</a>!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-160#town-of-us-mira-has-updated-to-v160" class="hash-link" aria-label="Direct link to town-of-us-mira-has-updated-to-v160" title="Direct link to town-of-us-mira-has-updated-to-v160" translate="no">​</a></h2>
+<p>This update includes bug fixes and improvements from the previous version(s). As always, be sure to do a fresh install!</p>
+<p><strong>Note:</strong> Before playing, you must reset your keybinds, otherwise your W key will be bound to the zoom key, and Puppeteer/Parasite will be broken, so on and so forth.</p>
+<p>See changelog below for the full list of bug fixes, known bugs and changes/improvements.</p>
+<!-- -->
+<p><strong>Known bugs with this update:</strong></p>
+<ul>
+<li class="">Private chats are invisible to players killed mid-meeting.</li>
+<li class="">Private chats for living players sometimes get deleted when a new public chat message is added.</li>
+<li class="">Controlled players (via Parasite/Puppeteer) appear to be stuck in a walk cycle when they are walking onto a wall, showing they are under control.</li>
+<li class="">Neutral Wildcard may duplicate the amount of each neutral present if any selected slots are wildcards.</li>
+<li class="">Ghostwalkers are sometimes unable to use the Zipline, Platform, or Ladders.</li>
+<li class="">When Haunter finishes their tasks, sometimes the Impostors will not get an arrow to the Haunter, essentially screwing them over.</li>
+</ul>
+<p><strong>Known Hide and Seek Bugs:</strong></p>
+<ul>
+<li class="">The Seeker is missing animations for the hiders</li>
+<li class="">Hiders ignore their vent uses</li>
+</ul>
+<hr>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="changelog">Changelog<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-160#changelog" class="hash-link" aria-label="Direct link to Changelog" title="Direct link to Changelog" translate="no">​</a></h3>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Role &amp; Modifier Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Crewmates</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Medic can no longer hand out shields again when settings forbid them.</li>
+<li class="">Medic shields are destroyed properly if the setting is set.</li>
+<li class="">Re-applying Magic Mirrors immediately no longer breaks.</li>
+<li class="">Guardian Angel's protection is properly checked.</li>
+<li class="">Engineer can no longer bypass Plumber's Barricades.</li>
+<li class="">Operative and Sentry's Portable cameras are now functioning on Android.</li>
+<li class="">Medium properly hides pets when anonymous players are enabled.</li>
+<li class="">Monarch can properly knight regardless of the First Round Use setting.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Impostors</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Shapeshifter's name is properly changed.</li>
+<li class="">Parasite victims properly die when the time runs out.</li>
+<li class="">Hypnotist's Hysteria can no longer softlock the player upon death.</li>
+<li class="">Warlock's Burst Kill works again.</li>
+<li class="">Herbalist's herbs reset properly across rounds.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Neutrals</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">First-Round settings no longer interfere with Amnesiac</li>
+<li class="">Fairy can no longer target Neutral Outliers.</li>
+<li class="">Spectre can spook properly again.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Miscellaneous Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Spectators who join without running /spec are no longer half-dead.</li>
+<li class="">When Crewpostor replaces a real Impostor, the player being replaced gets a proper role.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Improvements and Changes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Improvements</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Egotist and Crewpostor labels are shortened on player names.</li>
+<li class="">The Wiki now allows searching by faction/alignment.</li>
+<li class="">Disconnected players are kept properly displayed in the meeting and in the end-game summary.</li>
+<li class="">Camo Comms, Mix-Up, and Vent System checks are far more optimized now, reducing lagspikes and general instability.</li>
+<li class="">Plumber now has a Flush duration, blocking any vents in use for a set duration.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Current Region is now displayed in the lobby.</li>
+<li class="">Trapper's feedback now includes Hyperlinks.</li>
+<li class="">Many game settings are reorganized.</li>
+<li class="">April Fools mode is temporarily removed from the main menu for the sake of stability.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Additions</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Cleaned bodies can now be set to display as Missing, Disconnected, or Dead, applicable to Viper, Rotting, Chef, and Janitor.</li>
+<li class="">Kill Animation background can now optionally be colored based on the killer's Faction or Role Color.</li>
+<li class="">Added Role List Bucket tooltips while hovering (PR #156 by Maxi0fc)</li>
+<li class="">Investigator footprints can now be set to be based on Distance or Time.</li>
+<li class="">New Crewmate Killing role has been added: Officer.</li>
+</ul></div></div></details></div></div></details>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v1.5.9 Update]]></title>
+            <link>https://au-avengers.github.io/docs.toum.gg/blog/update-159</link>
+            <guid>https://au-avengers.github.io/docs.toum.gg/blog/update-159</guid>
+            <pubDate>Sat, 21 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Town of Us: Mira has updated to v1.5.9!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="town-of-us-mira-has-updated-to-v159">Town of Us: Mira has updated to v1.5.9!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-159#town-of-us-mira-has-updated-to-v159" class="hash-link" aria-label="Direct link to Town of Us: Mira has updated to v1.5.9!" title="Direct link to Town of Us: Mira has updated to v1.5.9!" translate="no">​</a></h2>
+<p>This update includes critical changes and bug fixes, and introduces a new role. As always, be sure to do a fresh install!</p>
+<p><strong>Known bugs with this update:</strong></p>
+<ul>
+<li class="">Operative and Sentry Portable cameras are unusable on Android.</li>
+<li class="">Some roles (such as Hunter) are known to have issues on Android, for reasons unknown to us.</li>
+<li class="">Private chats are invisible to players killed mid-meeting.</li>
+<li class="">Neutral Wildcard may duplicate the amount of each neutral present if any selected slots are wildcards.</li>
+</ul>
+<p>See changelog below for full list of bug fixes, changes and improvements.</p>
+<hr>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="new-role--the-herbalist-impostor-power">New Role — The <a class="" href="https://au-avengers.github.io/docs.toum.gg/docs/roles/impostor/power/herablist">Herbalist</a> (Impostor Power)<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-159#new-role--the-herbalist-impostor-power" class="hash-link" aria-label="Direct link to new-role--the-herbalist-impostor-power" title="Direct link to new-role--the-herbalist-impostor-power" translate="no">​</a></h2>
+<p>The Herbalist has many abilities tied to one cooldown, either to help Impostors or to affect what others see.</p>
+<p><strong>Herablist Abilities:</strong></p>
+<ul>
+<li class=""><strong>Expose:</strong> Expose a player to all Impostors, revealing their role but preventing them from being guessed.</li>
+<li class=""><strong>Confuse:</strong> Confuse a player with fungal spores to prevent them from identifying players.</li>
+<li class=""><strong>Protect:</strong> Protect a player temporarily as if you were a Cleric, including other impostors.</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="changelog">Changelog<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-159#changelog" class="hash-link" aria-label="Direct link to Changelog" title="Direct link to Changelog" translate="no">​</a></h3>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Role &amp; Modifier Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Crewmates</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Monarch's Round One setting is properly checked.</li>
+<li class="">May be fixed: Medic Shield is no longer ignored if it is supposed to break.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Impostors</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Hypnotist no longer breaks Mix-Up or kill animations.</li>
+<li class="">Ambusher is no longer caught by Investigator footprints.</li>
+<li class="">Traitor is no longer unguessable if Crewpostor is disabled.</li>
+<li class="">Players controlled by a Puppeteer can no longer no-clip when they're too close to the wall.</li>
+<li class="">Grenadier's flash no longer prevents abilities from being used. (besides reports).</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Neutrals</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Amnesiac properly removes their "win condition" information from the task tab.</li>
+<li class="">Doomsayer causes of death appear consistently now.</li>
+<li class="">Spectre no longer prevents Neutral Evils from winning.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Modifiers</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Lovers can no longer chat when under control</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Miscellaneous Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Ghostwalker roles spawn properly on Submerged</li>
+<li class="">Players are no longer kicked out of vents that there were no longer present in.</li>
+<li class="">Multi-kills from Bomber and Arsonist no longer break when one of the players is shielded</li>
+<li class="">Negative rounds will no longer appear in the Game Summary.</li>
+<li class="">Skeld decor settings are now checked properly.</li>
+<li class="">dlekS will no longer cause the Create Game Menu to freeze.</li>
+<li class="">"Airship" is no longer shown when "dlekS" is actually selected.</li>
+<li class="">Better Skeld's Vent Network connects the Navigation vent to Weapons properly.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Improvements and Changes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Improvements</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">More roles have role banners in the game options pane.</li>
+<li class="">More role and modifier icons have been redrawn in a higher quality.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Main Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class=""><a class="" href="https://au-avengers.github.io/docs.toum.gg/docs/roles/crewmate/investigative/Medium">Medium</a> has been fully reworked.</li>
+<li class="">The wiki now has a way to view game settings and includes a Terminology page.</li>
+<li class="">Ghost roles are now in an Afterlife category rather than Crew Investigative or Neutral Evil.</li>
+<li class="">Vanilla roles have their own colors now, and are fully integrated into the mod.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Critical Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">All Role List buckets are reset! The options are now unable to be affected by the addition of extra role buckets.</li>
+<li class="">Kills are now confirmed by the host before they are visible for everyone else. This means that there are no more death desyncs.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Chat Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">When a player is kicked for missing a mod, the host is now properly notified.</li>
+<li class="">Lobby Rules Messages are now titled "Lobby Rules" instead of "System".</li>
+<li class="">Added /info command for roles with meeting info. (<a href="https://github.com/AU-Avengers/TOU-Mira/pull/142" target="_blank" rel="noopener noreferrer" class="">PR #143</a>, idkimneil)</li>
+</ul></div></div></details></div></div></details>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v1.5.4 Update]]></title>
+            <link>https://au-avengers.github.io/docs.toum.gg/blog/update-154</link>
+            <guid>https://au-avengers.github.io/docs.toum.gg/blog/update-154</guid>
+            <pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Town of Us: Mira has updated to v1.5.4!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="town-of-us-mira-has-updated-to-v154">Town of Us: Mira has updated to <a href="https://github.com/AU-Avengers/TOU-Mira/releases/tag/v1.5.4" target="_blank" rel="noopener noreferrer" class="">v1.5.4</a>!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-154#town-of-us-mira-has-updated-to-v154" class="hash-link" aria-label="Direct link to town-of-us-mira-has-updated-to-v154" title="Direct link to town-of-us-mira-has-updated-to-v154" translate="no">​</a></h2>
+<p>This update includes bug fixes and improved map configurations! Be sure to do a fresh install.</p>
+<p>See changelog below for bugfixes, changes and improvements.</p>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="changelog">Changelog<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-154#changelog" class="hash-link" aria-label="Direct link to Changelog" title="Direct link to Changelog" translate="no">​</a></h3>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Role Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Crewmate Roles</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Mirrorcaster no longer bypasses their cooldowns.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Neutral Roles</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Soul Collected bodies are now removed upon revival.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Miscellaneous Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Modifier Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Deadly Quota's guess setting is checked correctly again.</li>
+<li class="">Taskmaster no longer activates when the player is a Vampire/Traitor.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Deaths should no longer desync under race conditions with meetings.</li>
+<li class="">Kills can no longer be triggered in the lobby from cheat clients.</li>
+<li class="">Role icons will no longer appear behind text in the role tab.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Additions and Known Issues</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Additions</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Visual Theme toggles for Skeld, Mira, and Polus can now be adjusted.</li>
+<li class="">Add Required Mods setting for hosts.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Known Issues</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Sentry's portable cameras are completely broken on Starlight.</li>
+</ul></div></div></details></div></div></details>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v1.5.3 Update]]></title>
+            <link>https://au-avengers.github.io/docs.toum.gg/blog/update-153</link>
+            <guid>https://au-avengers.github.io/docs.toum.gg/blog/update-153</guid>
+            <pubDate>Mon, 09 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Town of Us: Mira has updated to v1.5.3!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="town-of-us-mira-has-updated-to-v153">Town of Us: Mira has updated to <a href="https://github.com/AU-Avengers/TOU-Mira/releases/tag/v1.5.3" target="_blank" rel="noopener noreferrer" class="">v1.5.3</a>!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-153#town-of-us-mira-has-updated-to-v153" class="hash-link" aria-label="Direct link to town-of-us-mira-has-updated-to-v153" title="Direct link to town-of-us-mira-has-updated-to-v153" translate="no">​</a></h2>
+<p>This update includes bug fixes and improved map configurations! Be sure to do a fresh install.</p>
+<p>See changelog below for bugfixes, changes and improvements.</p>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="changelog">Changelog<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-153#changelog" class="hash-link" aria-label="Direct link to Changelog" title="Direct link to Changelog" translate="no">​</a></h3>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Role Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Crewmate Roles</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Veteran should no longer crash from trying to defend and retaliate against Pestilence.</li>
+<li class="">Imitator should properly show the crewmate variants of roles.</li>
+<li class="">Mystic can see the location of viper bodies properly now.</li>
+<li class="">Sentry now shows up in Doomsayer hints.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Neutral Roles</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Arsonist should no longer break when igniting a shielded player.</li>
+<li class="">Amneniac can no longer be its own Executioner/Fairy target, preventing game crashes.</li>
+<li class="">Glitch Hack no longer breaks kills when triggered by a basic button press.</li>
+<li class="">Pestilence announcement now works properly.</li>
+<li class="">Spectre should no longer cause issues with win conditions.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Miscellaneous Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">URole changing mid animation no longer softlocks the player.</li>
+<li class="">Player checks are cached, resulting in better performance.</li>
+<li class="">Kill animations should no longer break from corrupted memory.</li>
+<li class="">Kills should no longer desync.</li>
+<li class="">Pseudo-spectators should no longer appear in meetings.</li>
+</ul></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes, Improvements and Additions</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes</strong></summary><div><div class="collapsibleContent_i85q"><h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="for-developers">For Developers:<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-153#for-developers" class="hash-link" aria-label="Direct link to For Developers:" title="Direct link to For Developers:" translate="no">​</a></h4><ul>
+<li class="">The Player Reveal system has been changed a bit. Use BaseRevealModifier instead!</li>
+<li class="">MeetingMenu abilities can now have text, but this is optional for mod developers.</li>
+</ul><h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="other-changes">Other Changes:<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-153#other-changes" class="hash-link" aria-label="Direct link to Other Changes:" title="Direct link to Other Changes:" translate="no">​</a></h4><ul>
+<li class="">Medium is no longer a Support role, and is now an Investigative role.</li>
+<li class="">Rotting now has the base game Viper animation (and isn't removed from the player list).</li>
+<li class="">Neutrals and Egotist now have a grey map.</li>
+<li class="">Impostors and Crewpostor always have a red map now.</li>
+<li class="">Some game options have moved into the Game Mechanics category.</li>
+<li class="">The mod now displays a new smooth splash screen.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Improvements</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Meeting abilities now have text that can be translated.</li>
+<li class="">The Eiki now shows colors based on alignment rather than actual role color.</li>
+<li class="">Alliance modifiers now display a notification explaining the player's objective.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Additions</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Veteran can now be told if an attack was attempted on them in the meeting (Optional).</li>
+<li class="">Amnesiac by default picks up faction modifiers.</li>
+<li class="">All neutrals have objective text in their task list, just like Impostors.</li>
+</ul></div></div></details></div></div></details>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v1.5.2 Update]]></title>
+            <link>https://au-avengers.github.io/docs.toum.gg/blog/update-152</link>
+            <guid>https://au-avengers.github.io/docs.toum.gg/blog/update-152</guid>
+            <pubDate>Mon, 19 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Town of Us: Mira has updated to v1.5.2!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="town-of-us-mira-has-updated-to-v152">Town of Us: Mira has updated to <a href="https://github.com/AU-Avengers/TOU-Mira/releases/tag/v1.5.2" target="_blank" rel="noopener noreferrer" class="">v1.5.2</a>!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-152#town-of-us-mira-has-updated-to-v152" class="hash-link" aria-label="Direct link to town-of-us-mira-has-updated-to-v152" title="Direct link to town-of-us-mira-has-updated-to-v152" translate="no">​</a></h2>
+<p>This update includes bug fixes and improved map configurations. Be sure to do a fresh install!</p>
+<p>See changelog below for bugfixes, changes and improvements.</p>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="changelog">Changelog<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-152#changelog" class="hash-link" aria-label="Direct link to Changelog" title="Direct link to Changelog" translate="no">​</a></h3>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Role Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Ghost Roles</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Spectre's role tab now displays the information properly.</li>
+<li class="">Ghostwalker roles should appear to spawn properly for all players.</li>
+<li class="">Spectator should no longer error out in the meeting.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Miscellaneous Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Upper and Lower Deck are no longer broken visually on Submerged (<a href="https://github.com/AU-Avengers/TOU-Mira/pull/117" target="_blank" rel="noopener noreferrer" class="">PR #117</a>, jukixyo).</li>
+<li class="">Cooldown Pause in Panels option is no longer duplicated in the settings menu.</li>
+</ul></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes, Improvements and Additions</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">The Main Menu now displays the Discord Server and Source Code links next to the Fools Mode toggle.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Improvements</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Specific Better Maps settings can be changed Per-Map or via one setting.</li>
+<li class="">Camo Comms can be toggled for each map now.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary>Details</summary><div><div class="collapsibleContent_i85q"><p></p><summary><strong>Additions</strong></summary>
+Arsonist Option: Douses Possible at Once.<p></p><ul>
+<li class="">Vanilla Tweak Option: Ghostwalkers can Fix Sabotages Toggle.</li>
+<li class="">Host Option: Multiplayer Freeplay Mode.</li>
+<li class="">Better Maps Options: Tasks to use Admin/Cams/Doorlogs/Vitals.</li>
+<li class="">Better Skeld Option: Quad-Group Vent System Toggle.</li>
+<li class="">Better Fungle Options: No Ladder Cooldown toggle.</li>
+<li class="">Better Submerged Options: Reactor/Oxygen Duration Changes.</li>
+<li class="">Better LI Options: Reactor/Oxygen/Mix-Up Duration Changes, No Ladder Cooldown Toggle.</li>
+</ul></div></div></details></div></div></details>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v1.5.0 Update]]></title>
+            <link>https://au-avengers.github.io/docs.toum.gg/blog/update-150</link>
+            <guid>https://au-avengers.github.io/docs.toum.gg/blog/update-150</guid>
+            <pubDate>Sun, 04 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Town of Us: Mira has updated to v1.5.0!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="town-of-us-mira-has-updated-to-v150">Town of Us: Mira has updated to <a href="https://github.com/AU-Avengers/TOU-Mira/releases/tag/v1.5.0" target="_blank" rel="noopener noreferrer" class="">v1.5.0</a>!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-150#town-of-us-mira-has-updated-to-v150" class="hash-link" aria-label="Direct link to town-of-us-mira-has-updated-to-v150" title="Direct link to town-of-us-mira-has-updated-to-v150" translate="no">​</a></h2>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="this-version-runs-on-the-latest-version-of-among-us-a-fresh-install-is-recommended-to-ensure-no-conflicts-with-old-files">This version runs on the latest version of Among Us. A fresh install is recommended to ensure no conflicts with old files!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-150#this-version-runs-on-the-latest-version-of-among-us-a-fresh-install-is-recommended-to-ensure-no-conflicts-with-old-files" class="hash-link" aria-label="Direct link to This version runs on the latest version of Among Us. A fresh install is recommended to ensure no conflicts with old files!" title="Direct link to This version runs on the latest version of Among Us. A fresh install is recommended to ensure no conflicts with old files!" translate="no">​</a></h4>
+<p>This update introduces 5 new roles and 2 new Impostor modifiers!</p>
+<p>See changelog below for bugfixes, changes and improvements.</p>
+<!-- -->
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="new-roles">New Roles!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-150#new-roles" class="hash-link" aria-label="Direct link to New Roles!" title="Direct link to New Roles!" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-monarch-crewmate-power">The <a class="" href="https://au-avengers.github.io/docs.toum.gg/docs/roles/crewmate/power/monarch">Monarch</a> (Crewmate Power)<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-150#the-monarch-crewmate-power" class="hash-link" aria-label="Direct link to the-monarch-crewmate-power" title="Direct link to the-monarch-crewmate-power" translate="no">​</a></h3>
+<p>The <strong>Monarch</strong> can knight other players, giving them additional votes.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-sentry-crewmate-support">The <a class="" href="https://au-avengers.github.io/docs.toum.gg/docs/roles/crewmate/support/sentry">Sentry</a> (Crewmate Support)<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-150#the-sentry-crewmate-support" class="hash-link" aria-label="Direct link to the-sentry-crewmate-support" title="Direct link to the-sentry-crewmate-support" translate="no">​</a></h3>
+<p>The <strong>Sentry</strong> can place additional cameras across the map, which can then be viewed from Security or by players with portable cameras.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-time-lord-crewmate-power">The <a class="" href="https://au-avengers.github.io/docs.toum.gg/docs/roles/crewmate/power/time%20lord">Time Lord</a> (Crewmate Power)<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-150#the-time-lord-crewmate-power" class="hash-link" aria-label="Direct link to the-time-lord-crewmate-power" title="Direct link to the-time-lord-crewmate-power" translate="no">​</a></h3>
+<p>The <strong>Time Lord</strong> can rewind time, forcing players to retrace their path and potentially reviving fallen players!</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-parasite-impostor-powwer">The <a class="" href="https://au-avengers.github.io/docs.toum.gg/docs/roles/impostor/killing/parasite">Parasite</a> (Impostor Powwer)<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-150#the-parasite-impostor-powwer" class="hash-link" aria-label="Direct link to the-parasite-impostor-powwer" title="Direct link to the-parasite-impostor-powwer" translate="no">​</a></h3>
+<p>The <strong>Parasite</strong> can overtake a nearby player and temporarily control their movement before killing them.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-puppeteer-impostor-power">The <a class="" href="https://au-avengers.github.io/docs.toum.gg/docs/roles/impostor/power/puppeteer">Puppeteer</a> (Impostor Power)<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-150#the-puppeteer-impostor-power" class="hash-link" aria-label="Direct link to the-puppeteer-impostor-power" title="Direct link to the-puppeteer-impostor-power" translate="no">​</a></h3>
+<p>The <strong>Puppeteer</strong> can control other players and force them to kill someone else.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="new-modifiers">New Modifiers!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-150#new-modifiers" class="hash-link" aria-label="Direct link to New Modifiers!" title="Direct link to New Modifiers!" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="circumvent-impostor-passive">Circumvent (Impostor Passive)<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-150#circumvent-impostor-passive" class="hash-link" aria-label="Direct link to Circumvent (Impostor Passive)" title="Direct link to Circumvent (Impostor Passive)" translate="no">​</a></h3>
+<p>You lose the ability to vent around the map.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="deadly-quota-impostor-passive">Deadly Quota (Impostor Passive)<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-150#deadly-quota-impostor-passive" class="hash-link" aria-label="Direct link to Deadly Quota (Impostor Passive)" title="Direct link to Deadly Quota (Impostor Passive)" translate="no">​</a></h3>
+<p>You must meet your kill quota or lose the game, even if fellow Impostors win.</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="changelog">Changelog<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-150#changelog" class="hash-link" aria-label="Direct link to Changelog" title="Direct link to Changelog" translate="no">​</a></h3>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Role Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Crewmates</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Prosecutor's use is no longer wasted when their selection dies mid-meeting.</li>
+<li class="">Jailor uses are no longer removed 2 times in a row.</li>
+<li class="">Veteran no longer loses instantly in a 1v1 when on their last alert.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Impostors</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Traitor can be guessed properly again.</li>
+<li class="">Undertaker's Drag/Drop button no longer locks up after consecutive games.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Neutrals</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Amnesiac, Executioner and Fairy will see their target properly.</li>
+<li class="">Doomsayer guesses now appear properly instead of appearing as kills.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Miscellaneous Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Modifier Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Crewpostor is treated as a regular Impostor and no longer loses when only Crewmates remain.</li>
+<li class="">Disperse no longer breaks on Ladders or Platforms.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">First round death indicator no longer exposes morphed players.</li>
+<li class="">Vanilla roles are now properly clickable in chats to open their wiki entries.</li>
+<li class="">Epic Games can use Practice mode again.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes, Improvements and Additions</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">The private chatboxes are no longer toggled via separate buttons, but rather within the chat itself.</li>
+<li class="">Local Settings have been split up into two tabs, and the button slider has moved under MiraAPI Settings.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Improvements</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Morphing into a player with the First Death Shield will show a fake shield.</li>
+<li class="">Guesser Menu now allows you to search for roles and modifiers for ease of use.</li>
+<li class="">Most cooldowns can now go from 5 seconds all the way to 2 minutes.</li>
+<li class="">Options for Sheriff, Vampire, Oracle, and Vigilante are compressed within the wiki.</li>
+<li class="">New artwork has been added, and some old artwork has been cleaned up.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Additions</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Better Airship Option: No Ladder Cooldown.</li>
+<li class="">Mystic Option: Show Death Pop-Up.</li>
+<li class="">Arsonist Option: Impostor Vision. (Parity Change from TOUR)</li>
+<li class="">Altruist Option: Kill on Revive Start.</li>
+<li class="">Grenadier Option: Flash During Sabotage. (Parity Change from TOUR)</li>
+<li class="">Host-Only Option: Toggle Lobby No-Clip.</li>
+<li class="">New Impostor Roles: Parasite and Puppeteer.</li>
+<li class="">New Crewmate Roles: Monarch, Sentry, and Time Lord.</li>
+<li class="">New Impostor Modifiers: Circumvent and Deadly Quota.</li>
+<li class="">Hosts can now add a "LobbyRules.txt" file next to the mod to show their houserules in-game (<a href="https://github.com/AU-Avengers/TOU-Mira/pull/108" target="_blank" rel="noopener noreferrer" class="">PR #108</a>, Neil).</li>
+</ul></div></div></details></div></div></details>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v1.4.1 Update]]></title>
+            <link>https://au-avengers.github.io/docs.toum.gg/blog/update-141</link>
+            <guid>https://au-avengers.github.io/docs.toum.gg/blog/update-141</guid>
+            <pubDate>Sun, 14 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Town of Us: Mira has updated to v1.4.0!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="town-of-us-mira-has-updated-to-v140">Town of Us: Mira has updated to <a href="https://github.com/AU-Avengers/TOU-Mira/releases/tag/v1.4.0" target="_blank" rel="noopener noreferrer" class="">v1.4.0</a>!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-141#town-of-us-mira-has-updated-to-v140" class="hash-link" aria-label="Direct link to town-of-us-mira-has-updated-to-v140" title="Direct link to town-of-us-mira-has-updated-to-v140" translate="no">​</a></h2>
+<p>This update includes fixes for some critical bugs that were introduced in v1.4.0. There are also additional changes to settings, so be sure to check out the changelog!</p>
+<p>This update also includes a download specifically for macOS and Linux users. Please be sure to do a fresh install.</p>
+<p>See changelog below for bugfixes, changes and improvements.</p>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="changelog">Changelog<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-141#changelog" class="hash-link" aria-label="Direct link to Changelog" title="Direct link to Changelog" translate="no">​</a></h3>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Role Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Crewmates</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Jailor no longer shows a kill screen upon execution.</li>
+<li class="">Seer no longer gains additional uses from unfinished player comparisons.</li>
+<li class="">Imitator can no longer become basic Impostor or Survivor.</li>
+<li class="">Vanilla Detective notes can be properly used in meetings (<a href="https://github.com/AU-Avengers/TOU-Mira/pull/99" target="_blank" rel="noopener noreferrer" class="">PR #99</a>, Rewalo).</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Impostors</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Fixed Eclipsal option name.</li>
+<li class="">Traitor can no longer spawn like a basic Impostor role.</li>
+<li class="">Double Undertakers can no longer grab the same body.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Neutrals</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Spectre now spawns consistently</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Miscellaneous Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Gamemode Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Hide and Seek modifiers no longer appear in guessing menus.</li>
+<li class="">Classic Mode roles and modifiers can no longer spawn in Hide and Seek.</li>
+<li class="">All game keybinds are moved to the right-hand side, no longer blocking vent uses in Hide and Seek.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Neutral Wildcard will no longer cause incorrect neutral role spawns.</li>
+<li class="">April Fools bugs no longer appear when joining a lobby.</li>
+<li class="">Fixed keybinds bypassing button checks from shields.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes, Improvements and Additions</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">All intro blurbs have been improved and simplified.</li>
+<li class="">Crewpostor can no longer be a Jailor, Politician, Snitch, or Swapper.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Improvements</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Cached roles (such as Imitator or Traitor) will be displayed at the top of the Wiki.</li>
+<li class="">Stricter anticheat improvements (<a href="https://github.com/AU-Avengers/TOU-Mira/pull/96" target="_blank" rel="noopener noreferrer" class="">PR #96</a>, Rewalo).</li>
+<li class="">Chat messages can now include most Unicode characters and can be up to 300 characters long (<a href="https://github.com/AU-Avengers/TOU-Mira/pull/95" target="_blank" rel="noopener noreferrer" class="">PR #95</a>, Rewalo).</li>
+<li class="">The chat now displays secondary text bubbles for Lover, Jailor, Impostor, and Vampire chat.</li>
+<li class="">Lover chat is now a pink tint to make it stand out.</li>
+<li class="">Hunter has configurable task options.</li>
+<li class="">Engineer now has very configurable Vent, Fix, and Task settings.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Additions</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">New Local Settings: Grenadier Flash Color &amp; End Game Summary Message style.</li>
+<li class="">Better Polus Setting: Move Bathroom vent to Medbay.</li>
+<li class="">Better Mira HQ Setting: Better Vent Network.</li>
+<li class="">New Keybinds added for zooming in and out.</li>
+<li class="">New option: First Round Death Indicator.</li>
+<li class="">New command: <strong>/roles</strong> (<a href="https://github.com/AU-Avengers/TOU-Mira/pull/95" target="_blank" rel="noopener noreferrer" class="">PR #95</a>, Rewalo).</li>
+<li class="">New Hide and Seek Modifier: Transporter.</li>
+</ul></div></div></details></div></div></details>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v1.4.0 Update]]></title>
+            <link>https://au-avengers.github.io/docs.toum.gg/blog/update-140</link>
+            <guid>https://au-avengers.github.io/docs.toum.gg/blog/update-140</guid>
+            <pubDate>Thu, 27 Nov 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Town of Us: Mira has updated to v1.4.0!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="town-of-us-mira-has-updated-to-v140">Town of Us: Mira has updated to <a href="https://github.com/AU-Avengers/TOU-Mira/releases/tag/v1.4.0" target="_blank" rel="noopener noreferrer" class="">v1.4.0</a>!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-140#town-of-us-mira-has-updated-to-v140" class="hash-link" aria-label="Direct link to town-of-us-mira-has-updated-to-v140" title="Direct link to town-of-us-mira-has-updated-to-v140" translate="no">​</a></h2>
+<p>This version is compatible with the latest Among Us version (v.17.1.0). Please be sure to do a fresh install.</p>
+<p>This update includes:</p>
+<ul>
+<li class="">Modded Hide and Seek!</li>
+<li class="">A new alliance modifier — Crewpostor!</li>
+<li class="">Role reworks for Seer, Altruist and Egotist!</li>
+<li class="">New cosmetics!</li>
+</ul>
+<p>See changelog below for bugfixes, changes and improvements.</p>
+<ul>
+<li class=""><strong>Note:</strong> Offline Practice Mode does <strong>not</strong> work for Epic Games at this time.</li>
+</ul>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="changelog">Changelog<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-140#changelog" class="hash-link" aria-label="Direct link to Changelog" title="Direct link to Changelog" translate="no">​</a></h3>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Role Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Crewmates</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Hunter will no longer get their retribution on their last vote when Prosecuted.</li>
+<li class="">Politician checks now round up rather than round down.</li>
+<li class="">Mayor reveal no longer loops when opening the guess menu or wiki.</li>
+<li class="">Mirrorcaster's attack information is now displayed properly.</li>
+<li class="">Oracle now has Neutral Outlier Settings.</li>
+<li class="">Lookout can no longer see basic Impostor/Crewmate Ghosts interact with their target.</li>
+<li class="">Seer checks neutral outliers properly.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Impostors</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Ambusher animation loads properly for all players.</li>
+<li class="">Spellslinger is no longer outed in the meeting.</li>
+<li class="">Miner vents in Submerged now use the regular vent type rather than the pipe vent.</li>
+<li class="">Traitor no longer spawns without cooldowns.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Neutrals</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Amnesiac!Politician can campaign properly.</li>
+<li class="">Survivor no longer survives death from scatter with their vest.</li>
+<li class="">Werewolf cooldown is no longer locked to 5 seconds.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Miscellaneous Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Fixed the lack of Neutral Outliers causing Wildcard Role buckets to spawn basic Crewmates.</li>
+<li class="">Screen Flashes (from the likes of Medic, Warden, etc) now work during sabotages.</li>
+<li class="">When going from a build that has Level Impostor or Submerged to one without them, the host menu will no longer softlock the game.</li>
+<li class="">Any players who become Phantom will no longer hide their kill counters in the end-game summary.</li>
+<li class="">Dummies in Freeplay/Practice Mode will always get a role without erroring out.</li>
+<li class="">Submerged finally works on ToU: Mira and no longer breaks cooldowns.</li>
+<li class="">Game End Timer no longer instantly ends the game if the previous match ended from time running out.</li>
+<li class="">Buttons can no longer have negative cooldowns.</li>
+<li class="">It is no longer possible to have multiple button modifiers with the same keybind.</li>
+<li class="">Skeld doors on other maps work again.</li>
+<li class="">Discord Rich Presence shows mod count properly.</li>
+<li class="">Vanilla roles are properly displayed alongside other ToU roles.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes, Improvements and Additions</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Base game Engineer can no longer be used in ToU Mira.</li>
+<li class="">ToU Detective, Tracker, Guardian Angel, and Phantom have been renamed to Forensic, Sonar, Fairy, and Spectre.</li>
+<li class="">Vanilla Viper has been moved into the Impostor Killing alignment.</li>
+<li class="">Altruist by default sacrifices themselves when reviving, and can be changed to be like old Altruist or even older Altruist.</li>
+<li class="">Egotist now speeds up players and lowers cooldowns the longer they stay alive, which is configurable.</li>
+<li class="">Mercenary will protect players from attacks and gain double the profit by default.</li>
+<li class="">Seer has been reworked into its Town of Salem counterpart, comparing two separate players. (Not finalized)</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Improvements</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Kill buttons and vent buttons are now organized in such a way to match vanilla and TOUR, respectively.</li>
+<li class="">All maps now have offsets for Short Tasks, Long Tasks, and Cooldowns under the Better Map options.</li>
+<li class="">Vanilla Viper now has the cause of death "Disintegrated".</li>
+<li class="">Celebrity death message is now formatted as a list.</li>
+<li class="">Dying to Submerged Oxygen now shows "Suffocated" as the cause of death.</li>
+<li class="">Mayor sees all players they campaigned after reveal.</li>
+<li class="">Freeplay now has three buttons available for enhanced testing.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Additions</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">It is now possible to switch between Vanilla role assignment, Role List, and Min/Max Neutral List.</li>
+<li class="">Modded Hide and Seek is now possible!</li>
+<li class="">New Vanilla Tweak Options: Walk to Medscan Toggle, Hidden Pets, Removal Of Pets Upon Body Cleanse</li>
+<li class="">New Alliance Modifier: Crewpostor! A Crewpostor is a crewmate that works solely for the Impostors, and becomes Traitor upon their deaths.</li>
+<li class="">New options were added for independent configuration of dead players.</li>
+<li class="">New options for Camouflage Comms: Camouflage Kill Screens in Comms, Hide Player Size, and Hide Player Speed.</li>
+<li class="">New option for All Maps: Specified Door Types, including No Doors and Random Doors</li>
+<li class="">Added dlekS into the randomized map list and in the game settings window.</li>
+<li class="">Nearly all sabotage countdowns are now configurable.</li>
+</ul></div></div></details></div></div></details>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v1.3.0 Update]]></title>
+            <link>https://au-avengers.github.io/docs.toum.gg/blog/update-130</link>
+            <guid>https://au-avengers.github.io/docs.toum.gg/blog/update-130</guid>
+            <pubDate>Tue, 14 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Town of Us: Mira has updated to v1.3.0!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="town-of-us-mira-has-updated-to-v130">Town of Us: Mira has updated to <a href="https://github.com/AU-Avengers/TOU-Mira/releases/tag/v1.3.0" target="_blank" rel="noopener noreferrer" class="">v1.3.0</a>!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-130#town-of-us-mira-has-updated-to-v130" class="hash-link" aria-label="Direct link to town-of-us-mira-has-updated-to-v130" title="Direct link to town-of-us-mira-has-updated-to-v130" translate="no">​</a></h2>
+<p>This version is <strong>NOT</strong> compatible with the latest Among Us version. Please refer to installation guides for how to downgrade your platform.</p>
+<hr>
+<p>This update introduces <strong>2 new roles</strong> and updates to the Neutral buckets!</p>
+<p>See changelog below for bugfixes and improvements.</p>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="new-impostor-power-role--the-spellslinger">New Impostor Power Role — The Spellslinger!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-130#new-impostor-power-role--the-spellslinger" class="hash-link" aria-label="Direct link to New Impostor Power Role — The Spellslinger!" title="Direct link to New Impostor Power Role — The Spellslinger!" translate="no">​</a></h3>
+<p>The <strong>Spellslinger</strong> hexes players and releases a Hex Bomb! Crew must eliminate the Spellslinger or race to complete tasks before the hex clock runs out...</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="new-neutral-outlier-role--the-chef">New Neutral Outlier Role — The Chef!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-130#new-neutral-outlier-role--the-chef" class="hash-link" aria-label="Direct link to New Neutral Outlier Role — The Chef!" title="Direct link to New Neutral Outlier Role — The Chef!" translate="no">​</a></h3>
+<p>The <strong>Chef</strong> cooks dead bodies and must feed them to others to fulfill their quota to leave in victory!</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="changelog">Changelog<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-130#changelog" class="hash-link" aria-label="Direct link to Changelog" title="Direct link to Changelog" translate="no">​</a></h3>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Role Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Crewmates</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Vigilante no longer wastes a use while guessing.</li>
+<li class="">If a Prosecutor is punished and dies as a Celebrity, their death is no longer displayed.</li>
+<li class="">Jailor no longer errors out from certain kills.</li>
+<li class="">Hunter Retribution should appear for all clients properly now.</li>
+<li class="">Medic will no longer trigger the shield if the kill button isn't usable.</li>
+<li class="">Mirrorcaster will no longer trigger the mirror if the kill button isn't usable.</li>
+<li class="">When an Amnesiac/Imitator becomes Snitch, their progress automatically updates.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Impostors</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Blackmailed victims are prevented from voting correctly.</li>
+<li class="">Undertaker properly drops dead bodies.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Neutrals</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">If an Executioner's target becomes a Vampire, they will no longer be able to end the game, but will still win.</li>
+<li class="">Mercenary can no longer become Phantom if they bribed a player or had their role taken by an Amnesiac.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Miscellaneous Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Modifier Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Aftermath will now properly trigger abilities as intended.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Wiki appears in front of all UI elements</li>
+<li class="">First Round Shield will no longer trigger if the kill button isn't usable.</li>
+<li class="">FFA Impostor Mode now hides impostor names from the chat.</li>
+<li class="">Guess counts should no longer be counted in the main kill counter for the summary.</li>
+<li class="">Haunter and Phantom no longer appear camouflaged during comms.</li>
+<li class="">When a player disconnects, anyone who voted for them should no longer be stuck without a vote.</li>
+<li class="">Client-side murders should no longer be an issue.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes and Additions</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Mirrorcaster now has four types of information it can display based on the attack.</li>
+<li class="">Inquisitor is no longer a Neutral Evil, but rather a Neutral Outlier alongside the new neutral role.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Additions</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Toggle Spectators options is under General Options.</li>
+<li class="">Inquisitor Vanquish Round One toggle has been added</li>
+<li class="">Rich Presence on Discord now shows the mod icon.</li>
+<li class="">New Neutral Buckets: Neutral Wildcard (Non-Killing Neutrals) and Neutral Special (Neutral Killing and Outlier)</li>
+<li class=""><strong>New Neutral Outlier Role: The Chef!</strong>
+This role takes the dead bodies of players and feeds them to others, which all fulfills their quota to leave in victory!</li>
+<li class=""><strong>New Impostor Power Role: The Spellslinger!</strong>
+This role hexes players to then set off a hex bomb, in which the crew will need to get rid of the Spellslinger or finish their tasks against the hex clock.</li>
+</ul></div></div></details></div></div></details>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v1.2.1 Update]]></title>
+            <link>https://au-avengers.github.io/docs.toum.gg/blog/update-121</link>
+            <guid>https://au-avengers.github.io/docs.toum.gg/blog/update-121</guid>
+            <pubDate>Sun, 28 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Town of Us: Mira has updated to v1.2.1!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="town-of-us-mira-has-updated-to-v121">Town of Us: Mira has updated to <a href="https://github.com/AU-Avengers/TOU-Mira/releases/tag/v1.2.0" target="_blank" rel="noopener noreferrer" class="">v1.2.1</a>!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-121#town-of-us-mira-has-updated-to-v121" class="hash-link" aria-label="Direct link to town-of-us-mira-has-updated-to-v121" title="Direct link to town-of-us-mira-has-updated-to-v121" translate="no">​</a></h2>
+<p>See changelog below for bugfixes and improvements.</p>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="changelog">Changelog<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-121#changelog" class="hash-link" aria-label="Direct link to Changelog" title="Direct link to Changelog" translate="no">​</a></h3>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Localisation Updates</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Impostor Abilities are nearly fully ready for translations.</li>
+<li class="">Doomsayer now adds localization changes correctly.</li>
+</ul></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Wiki Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Fixed Wiki entries for Diseased, Lovers, Bait, Mini, Rotting, Satellite, Amnesiac, and Plumber.</li>
+<li class="">Vanilla wiki entries get properly localized to your active language.</li>
+<li class="">Inquisitor Report entries can now be clicked to open their wiki entries.</li>
+<li class="">Vanilla Wiki entries for Viper and Detective no longer appear as "STRMISS"</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Misc. Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Fixed Wiki entries for Diseased, Lovers, Bait, Mini, Rotting, Satellite, Amnesiac, and Plumber.</li>
+<li class="">Vanilla wiki entries get properly localized to your active language.</li>
+<li class="">Inquisitor Report entries can now be clicked to open their wiki entries.</li>
+<li class="">Vanilla Wiki entries for Viper and Detective no longer appear as "STRMISS"</li>
+</ul></div></div></details></div></div></details>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v1.2.0 Update]]></title>
+            <link>https://au-avengers.github.io/docs.toum.gg/blog/update-120</link>
+            <guid>https://au-avengers.github.io/docs.toum.gg/blog/update-120</guid>
+            <pubDate>Wed, 24 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Town of Us: Mira has updated to v1.2.0!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="town-of-us-mira-has-updated-to-v120">Town of Us: Mira has updated to <a href="https://github.com/AU-Avengers/TOU-Mira/releases/tag/v1.2.0" target="_blank" rel="noopener noreferrer" class="">v1.2.0</a>!<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-120#town-of-us-mira-has-updated-to-v120" class="hash-link" aria-label="Direct link to town-of-us-mira-has-updated-to-v120" title="Direct link to town-of-us-mira-has-updated-to-v120" translate="no">​</a></h2>
+<p>This update is compatible with the latest Among Us version (v17.0.0). Please be sure to update your base game before installing.</p>
+<p>See changelog below for bugfixes and improvements.</p>
+<sub><strong>Note:</strong> The Epic Games crash issues have largely been resolved with this update. If you experience crashes or failure to launch, please make a <strong>Mira Bug Ticket</strong> ticket in the <a href="https://discord.com/channels/890249154402586734/900986905154453504" target="_blank" rel="noopener noreferrer" class="">TOU Support</a> Discord server and provide your LogOutput &amp; ErrorLogs (found in the BepInEx folder) and your system operating information.</sub>
+<!-- -->
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="changelog">Changelog<a href="https://au-avengers.github.io/docs.toum.gg/blog/update-120#changelog" class="hash-link" aria-label="Direct link to Changelog" title="Direct link to Changelog" translate="no">​</a></h3>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Role Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Crewmates</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">If the Lookout disconnects or gets converted, their feedback will no longer be shown to others in the chat.</li>
+<li class="">Snitch is revealed properly to the Traitor as intended.</li>
+<li class="">Traitor will always see the Snitch regardless of settings, but Snitch can only see Traitor based on specific settings.</li>
+<li class="">Tracker and Engineer get task uses properly.</li>
+<li class="">Mirrorcaster can no longer Unleash onto the player that they protect at the same time.</li>
+<li class="">The Sheriff can kill the Ambassador without misfiring (bad checks).</li>
+<li class="">The Prosecutor button is no longer hidden when the skip button is hidden.</li>
+<li class="">Jailee is no longer in Jail if the Jailor is converted.</li>
+<li class="">The Mayor no longer trips up Traitor checks from sending repetitive requests to all players.</li>
+<li class="">Fixing Comms as the Engineer no longer uses up two charges.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Impostors</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Traitor can no longer vent as a ghost.</li>
+<li class="">Hypnotist applies the same body type to all players, and clears properly without breaking.</li>
+<li class="">Swooper player names are no longer revealed during Camo Comms.</li>
+<li class="">Morphling player names are no longer revealed during Camo Comms after unmorphing.</li>
+<li class="">Ambusher can no longer get outed when they are taking bodies away.</li>
+<li class="">When the Ambusher's victim is revived while their body is taken away, the ambusher will no longer softlock.</li>
+<li class="">Miner vents are fully disabled from other roles if they aren't visible.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Neutrals</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Amnesiac Inquisitor can no longer target themselves.</li>
+<li class="">Phantom, Executioner, and Jester ghost kills are now run through a more direct method to force a murder at all costs.</li>
+<li class="">Glitch player names are no longer revealed during Camo Comms after un-mimicking.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Miscellaneous Bugfixes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Modifier Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Celebrity Report no longer gets parsed incorrectly.</li>
+<li class="">When Spooked by a Phantom, the Celebrity shows their cause of death as Spooked properly.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Other Bug Fixes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Haunter, Phantom, and Snitch now ignore Sabotage and Non-Task Information on the task list.</li>
+<li class="">There are now checks to prevent votes on dead players or votes happening from dead players.</li>
+</ul></div></div></details></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Improvements and Changes</strong></summary><div><div class="collapsibleContent_i85q"><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Improvements</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Chat Tags now italicize on hover. (PR <a href="https://github.com/AU-Avengers/TOU-Mira/pull/65" target="_blank" rel="noopener noreferrer" class="">#65</a>, Chipseq)</li>
+<li class="">Controllers on the Main Menu can now select the April Fools Toggle.</li>
+<li class="">Chat is now hidden from recently killed players.</li>
+<li class="">Your abilities can no longer be triggered when typing in lovers chat.</li>
+</ul></div></div></details><details class="details_lb9f alert alert--info details_b_Ee customdetails" data-collapsed="true"><summary><strong>Changes</strong></summary><div><div class="collapsibleContent_i85q"><ul>
+<li class="">Nearly complete Chinese translations, as well as partial translations for Dutch, French, German, Russian, and Spanish.</li>
+<li class="">Players can now spectate in games by running "/spec" in their chat.</li>
+<li class="">It is now possible to change what ranges of buttons are affected by the starting cooldown, if any.</li>
+</ul></div></div></details></div></div></details>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

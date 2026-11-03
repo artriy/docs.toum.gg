@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktoum_docs=self.webpackChunktoum_docs||[]).push([["4813"],{5383(o){o.exports=JSON.parse('{"metadata":{"permalink":"/docs.toum.gg/blog","page":1,"postsPerPage":10,"totalPages":3,"totalCount":26,"nextPage":"/docs.toum.gg/blog/page/2","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

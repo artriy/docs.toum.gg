@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktoum_docs=self.webpackChunktoum_docs||[]).push([["106"],{7164(e,o,s){s.d(o,{A:()=>d});var c=s(4848),t=s(7658),u=s(6550),l=s(1702);function d(e){let{metadata:o}=(0,u.u)(),s=(0,l.Df)().get(o.id);return(0,c.jsx)("div",{className:"toum-doc toum-role-scope",style:s?{"--role":s.color}:void 0,children:(0,c.jsx)(t.A,{...e})})}}}]);

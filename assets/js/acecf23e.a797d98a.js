@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktoum_docs=self.webpackChunktoum_docs||[]).push([["3220"],{1912(o){o.exports=JSON.parse('{"blogBasePath":"/docs.toum.gg/blog","blogTitle":"Blog","authorsListPath":"/docs.toum.gg/blog/authors"}')}}]);
