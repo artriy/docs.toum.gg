@@ -1,6 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import rosterPlugin from './plugins/roster';
 
 const config: Config = {
   title: 'Town Of Us: Mira Docs',
@@ -56,11 +57,20 @@ const config: Config = {
           onUntruncatedBlogPosts: 'warn',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: [
+            require.resolve('@fontsource/lilita-one/400.css'),
+            require.resolve('@fontsource-variable/nunito/wght.css'),
+            require.resolve('@fontsource-variable/nunito/wght-italic.css'),
+            require.resolve('@fontsource-variable/jetbrains-mono/wght.css'),
+            './src/css/custom.css',
+          ],
         },
       } satisfies Preset.Options,
     ],
   ],
+
+  plugins: [rosterPlugin],
+  clientModules: ['./src/clientModules/lightsReveal.ts', './src/clientModules/docPage.ts'],
 
   themeConfig: {
     image: 'img/Embed.png',
@@ -154,14 +164,14 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} AU Avengers. All rights reserved.`,
+      copyright: `Copyright © ${new Date().getFullYear()} AU Avengers. All rights reserved.<br/>Site design by <a href="https://github.com/artriy" target="_blank" rel="noopener noreferrer">artriy</a>`,
     },
     colorMode: {
       defaultMode: 'dark'
     },
     prism: {
       theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      darkTheme: prismThemes.oneDark,
       additionalLanguages: ['csharp', 'ini']
     },
   } satisfies Preset.ThemeConfig,
