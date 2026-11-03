@@ -667,6 +667,7 @@ hr {
   .markdown table td:first-child,
   .markdown table td:first-child:has(> img:only-child) {
     display: block;
+    width: auto;
     padding-bottom: 0.4rem;
     font-size: 1.05rem;
     text-align: left !important;
@@ -674,6 +675,12 @@ hr {
 
   .markdown table td:first-child::before {
     content: none;
+  }
+
+  .markdown table td > img:only-child {
+    width: 3.5rem !important;
+    max-width: none;
+    height: auto;
   }
 
   .breadcrumbs {
